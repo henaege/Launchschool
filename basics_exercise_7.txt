@@ -1,0 +1,3 @@
+# basics_exercise_7.txt
+
+This error message tells me that the user was creating a hash or code block, but used ')' instead of '}' to close the statement.
