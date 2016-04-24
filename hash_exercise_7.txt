@@ -1,0 +1,13 @@
+# hash_exercise_7.txt
+
+Given the following code...
+
+  x = "hi there"
+
+  my_hash = {x: "some value"}
+  my_hash2 = {x <= "somevalue"}
+
+What's the difference between the two hashes that were created?
+
+THe only difference is my_hash was created using x as a symbol for the
+key, while my_hash2 was created using x as a string for the key.
