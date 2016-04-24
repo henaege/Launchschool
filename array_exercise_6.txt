@@ -1,0 +1,22 @@
+# array_exercise_6.txt
+
+You run the following code...
+
+  names = ['bob', 'joe', 'susan', 'margaret']
+  names['margaret'] = 'jody'
+
+...and get the following error message:
+
+  TypeError: no implicit conversion of String into Integer
+  from (irb):2:in `[]='
+  from (irb):2
+  from /Users/username/.rvm/rubies/ruby-2.0.0-p353/bin/irb:12:in `<main>'
+
+What is the problem and how can it be fixed?
+
+  The problem is you are trying to change a value in the array
+  by accessing the value, not the index. Instead, do:
+
+    names[3] = 'jody'
+
+  This will replace the value at index 3 with the new value.

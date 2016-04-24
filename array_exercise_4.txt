@@ -1,0 +1,17 @@
+ # array_exercise_5.txt
+
+ arr = [15, 7, 18, 5, 12, 8, 5, 1]
+
+1. arr.index(5)
+  returns 3 (the number 5 is at index 3 in the array; the index
+  method returns the index of teh value you pass it)
+
+2. arr.index[5]
+  returns error: 
+    NoMethodError: undefined method `[]' for #<Enumerator: [15, 7, 18, 5, 12, 8, 5, 1]:index>
+    from (irb):3
+    from /usr/bin/irb:11:in `<main>'
+  because [] means youare accessing the array directly, so you can't use a method; see 3. below.
+
+3. arr[5]
+  returns 8 becaue the nuber 8 is at index 5 of the array
