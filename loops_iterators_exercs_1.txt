@@ -1,0 +1,13 @@
+# loops_iterators_exercs_1.txt
+
+What does the each method in the following program return after it is finished executing?
+
+  x = [1, 2, 3, 4, 5]
+  x.each do |a|
+    a + 1
+  end
+
+Answer: The array will be returned in its original form
+        because the #each method doesn't chang the array.
+        So the do/end code block is executed, but it doesn't
+        change the array.
