@@ -1,0 +1,18 @@
+# variables_exercise_5.txt
+
+x = 0
+3.times do
+  x += 1
+end
+puts x
+
+# Outputs '3' with no errors
+
+y = 0
+3.times do
+  y += 1
+  x = y
+end
+puts x
+
+# Throws error: "`<main>': undefined local variable or method `x' for main:Object (NameError)" because 'x' was only defined inside the code block, so its scope is limited to the code block. When called from outside the code block, it is an undefined variable.
