@@ -1,0 +1,25 @@
+# exercise_9.txt
+
+Suppose you have a hash h = {a:1, b:2, c:3, d:4}
+
+1. Get the value of key `:b`
+
+  irb(main):001:0> h = {a: 1, b: 2, c: 3, d: 4} 
+  => {:a=>1, :b=>2, :c=>3, :d=>4}
+  irb(main):002:0> h.fetch(:b)
+  => 2
+
+
+2. Add to this hash the key:value pair `{e:5}`
+
+  irb(main):003:0> h[:e] = 5
+  => 5
+  irb(main):004:0> h
+  => {:a=>1, :b=>2, :c=>3, :d=>4, :e=>5}
+
+3. Remove all key:value pairs whose value is less than 3.5
+
+  irb(main):005:0> h.delete_if { |key, value| value < 3.5 }
+  => {:d=>4, :e=>5}
+  irb(main):006:0> h
+  => {:d=>4, :e=>5}

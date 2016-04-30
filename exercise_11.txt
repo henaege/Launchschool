@@ -1,0 +1,7 @@
+# exercise_11.txt
+
+Look at several Rails/Ruby online API sources and say which one you like best and why.
+
+  For pure Ruby, I like ruby-lang.org. I prefer the layout and the extras they provide, plus they use ruby-doc.org for displaying the actual documentation, which gives it an "official" feel and legitimacy.
+
+  
